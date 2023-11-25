@@ -1,0 +1,89 @@
+/* Assuming you have defined the necessary styles in your CSS module */
+.signup_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+  }
+  
+  .signup_form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 400px;
+  }
+  
+  .left {
+	width: 100%;
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+  }
+  
+  .btn2 {
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #333;
+	border-radius: 4px;
+	padding: 8px 16px;
+	font-size: 14px;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn2:hover {
+	background-color: #333;
+	color: #fff;
+  }
+  
+  .right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+  }
+  
+  .form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .input {
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+  }
+  
+  .error_msg {
+	color: #e74c3c;
+	margin-top: 5px;
+  }
+  
+  .btn {
+	background-color: #2ecc71;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+	background-color: #27ae60;
+  }
+  
